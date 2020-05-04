@@ -35,11 +35,13 @@ h2 {
   margin-top: 1em;
   line-height: 1em;
 }
-/* Navigation Styles */
-img {
-  width: 100%;
-}
 
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+/* Navigation Styles */
 .nav a {
   display: block;
   background: #1CA0E3;
@@ -60,7 +62,15 @@ img {
   color: #1CA0E3;
 }
 
+#intro {
+  margin-top: 1.2em;
+}
+
 /* Responsive Media */
+img {
+  display: block;
+  width: 100%;
+}
 
 
 /* State Styles */
