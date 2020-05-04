@@ -29,8 +29,11 @@ h3 {
   font-family: "Raleway", sans-serif;
 }
 
-header {
-  background: #FEFEFF;
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  line-height: 1em;
 }
 /* Navigation Styles */
 img {
