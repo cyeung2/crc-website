@@ -108,5 +108,29 @@ footer {
   padding: 2em;
 }
 
-
 /* State Styles */
+@media screen and (min-width: 500px){
+  .nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+
+.nav li {
+  flex-grow: 1;
+}
+}
+
+/* 1100px || 1100 / 16 = 68.75em */
+@media screen and (min-width: 68.75em) {
+  html {
+    padding-left: 8em;
+    padding-right: 8em;
+    font-size:1.5em;
+  }
+
+  img {
+    width: 50%;
+  }
+}
